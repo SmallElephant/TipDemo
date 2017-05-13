@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A844CF1D1EC6AD4600AC7E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A844CF1C1EC6AD4600AC7E9C /* main.m */; };
+		A844CF201EC6AD4600AC7E9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A844CF1F1EC6AD4600AC7E9C /* AppDelegate.m */; };
+		A844CF231EC6AD4600AC7E9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A844CF221EC6AD4600AC7E9C /* ViewController.m */; };
+		A844CF261EC6AD4600AC7E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A844CF241EC6AD4600AC7E9C /* Main.storyboard */; };
+		A844CF281EC6AD4600AC7E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844CF271EC6AD4600AC7E9C /* Assets.xcassets */; };
+		A844CF2B1EC6AD4600AC7E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A844CF291EC6AD4600AC7E9C /* LaunchScreen.storyboard */; };
+		A844CF361EC6AD4600AC7E9C /* EasyTipViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A844CF351EC6AD4600AC7E9C /* EasyTipViewDemoTests.m */; };
+		A844CF411EC6AD4600AC7E9C /* EasyTipViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A844CF401EC6AD4600AC7E9C /* EasyTipViewDemoUITests.m */; };
+		A844CF521EC6ADFA00AC7E9C /* EasyTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844CF511EC6ADFA00AC7E9C /* EasyTipView.swift */; };
+		A844CF541EC6AE0300AC7E9C /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844CF531EC6AE0300AC7E9C /* UIKitExtensions.swift */; };
+		A844CF561EC6AEE600AC7E9C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844CF551EC6AEE600AC7E9C /* TestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A844CF321EC6AD4600AC7E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A844CF101EC6AD4600AC7E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A844CF171EC6AD4600AC7E9C;
+			remoteInfo = EasyTipViewDemo;
+		};
+		A844CF3D1EC6AD4600AC7E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A844CF101EC6AD4600AC7E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A844CF171EC6AD4600AC7E9C;
+			remoteInfo = EasyTipViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A844CF181EC6AD4600AC7E9C /* EasyTipViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTipViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A844CF1C1EC6AD4600AC7E9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A844CF1E1EC6AD4600AC7E9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A844CF1F1EC6AD4600AC7E9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A844CF211EC6AD4600AC7E9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A844CF221EC6AD4600AC7E9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A844CF251EC6AD4600AC7E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A844CF271EC6AD4600AC7E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A844CF2A1EC6AD4600AC7E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A844CF2C1EC6AD4600AC7E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A844CF311EC6AD4600AC7E9C /* EasyTipViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTipViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A844CF351EC6AD4600AC7E9C /* EasyTipViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyTipViewDemoTests.m; sourceTree = "<group>"; };
+		A844CF371EC6AD4600AC7E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A844CF3C1EC6AD4600AC7E9C /* EasyTipViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTipViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A844CF401EC6AD4600AC7E9C /* EasyTipViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyTipViewDemoUITests.m; sourceTree = "<group>"; };
+		A844CF421EC6AD4600AC7E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A844CF501EC6ADF900AC7E9C /* EasyTipViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyTipViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A844CF511EC6ADFA00AC7E9C /* EasyTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyTipView.swift; sourceTree = "<group>"; };
+		A844CF531EC6AE0300AC7E9C /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		A844CF551EC6AEE600AC7E9C /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A844CF151EC6AD4600AC7E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844CF2E1EC6AD4600AC7E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844CF391EC6AD4600AC7E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A844CF0F1EC6AD4600AC7E9C = {
+			isa = PBXGroup;
+			children = (
+				A844CF1A1EC6AD4600AC7E9C /* EasyTipViewDemo */,
+				A844CF341EC6AD4600AC7E9C /* EasyTipViewDemoTests */,
+				A844CF3F1EC6AD4600AC7E9C /* EasyTipViewDemoUITests */,
+				A844CF191EC6AD4600AC7E9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A844CF191EC6AD4600AC7E9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A844CF181EC6AD4600AC7E9C /* EasyTipViewDemo.app */,
+				A844CF311EC6AD4600AC7E9C /* EasyTipViewDemoTests.xctest */,
+				A844CF3C1EC6AD4600AC7E9C /* EasyTipViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A844CF1A1EC6AD4600AC7E9C /* EasyTipViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A844CF1E1EC6AD4600AC7E9C /* AppDelegate.h */,
+				A844CF1F1EC6AD4600AC7E9C /* AppDelegate.m */,
+				A844CF211EC6AD4600AC7E9C /* ViewController.h */,
+				A844CF221EC6AD4600AC7E9C /* ViewController.m */,
+				A844CF531EC6AE0300AC7E9C /* UIKitExtensions.swift */,
+				A844CF511EC6ADFA00AC7E9C /* EasyTipView.swift */,
+				A844CF241EC6AD4600AC7E9C /* Main.storyboard */,
+				A844CF271EC6AD4600AC7E9C /* Assets.xcassets */,
+				A844CF291EC6AD4600AC7E9C /* LaunchScreen.storyboard */,
+				A844CF2C1EC6AD4600AC7E9C /* Info.plist */,
+				A844CF1B1EC6AD4600AC7E9C /* Supporting Files */,
+				A844CF501EC6ADF900AC7E9C /* EasyTipViewDemo-Bridging-Header.h */,
+				A844CF551EC6AEE600AC7E9C /* TestView.swift */,
+			);
+			path = EasyTipViewDemo;
+			sourceTree = "<group>";
+		};
+		A844CF1B1EC6AD4600AC7E9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A844CF1C1EC6AD4600AC7E9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A844CF341EC6AD4600AC7E9C /* EasyTipViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A844CF351EC6AD4600AC7E9C /* EasyTipViewDemoTests.m */,
+				A844CF371EC6AD4600AC7E9C /* Info.plist */,
+			);
+			path = EasyTipViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A844CF3F1EC6AD4600AC7E9C /* EasyTipViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A844CF401EC6AD4600AC7E9C /* EasyTipViewDemoUITests.m */,
+				A844CF421EC6AD4600AC7E9C /* Info.plist */,
+			);
+			path = EasyTipViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A844CF171EC6AD4600AC7E9C /* EasyTipViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A844CF451EC6AD4600AC7E9C /* Build configuration list for PBXNativeTarget "EasyTipViewDemo" */;
+			buildPhases = (
+				A844CF141EC6AD4600AC7E9C /* Sources */,
+				A844CF151EC6AD4600AC7E9C /* Frameworks */,
+				A844CF161EC6AD4600AC7E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTipViewDemo;
+			productName = EasyTipViewDemo;
+			productReference = A844CF181EC6AD4600AC7E9C /* EasyTipViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A844CF301EC6AD4600AC7E9C /* EasyTipViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A844CF481EC6AD4600AC7E9C /* Build configuration list for PBXNativeTarget "EasyTipViewDemoTests" */;
+			buildPhases = (
+				A844CF2D1EC6AD4600AC7E9C /* Sources */,
+				A844CF2E1EC6AD4600AC7E9C /* Frameworks */,
+				A844CF2F1EC6AD4600AC7E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A844CF331EC6AD4600AC7E9C /* PBXTargetDependency */,
+			);
+			name = EasyTipViewDemoTests;
+			productName = EasyTipViewDemoTests;
+			productReference = A844CF311EC6AD4600AC7E9C /* EasyTipViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A844CF3B1EC6AD4600AC7E9C /* EasyTipViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A844CF4B1EC6AD4600AC7E9C /* Build configuration list for PBXNativeTarget "EasyTipViewDemoUITests" */;
+			buildPhases = (
+				A844CF381EC6AD4600AC7E9C /* Sources */,
+				A844CF391EC6AD4600AC7E9C /* Frameworks */,
+				A844CF3A1EC6AD4600AC7E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A844CF3E1EC6AD4600AC7E9C /* PBXTargetDependency */,
+			);
+			name = EasyTipViewDemoUITests;
+			productName = EasyTipViewDemoUITests;
+			productReference = A844CF3C1EC6AD4600AC7E9C /* EasyTipViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A844CF101EC6AD4600AC7E9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					A844CF171EC6AD4600AC7E9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A844CF301EC6AD4600AC7E9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A844CF171EC6AD4600AC7E9C;
+					};
+					A844CF3B1EC6AD4600AC7E9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A844CF171EC6AD4600AC7E9C;
+					};
+				};
+			};
+			buildConfigurationList = A844CF131EC6AD4600AC7E9C /* Build configuration list for PBXProject "EasyTipViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A844CF0F1EC6AD4600AC7E9C;
+			productRefGroup = A844CF191EC6AD4600AC7E9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A844CF171EC6AD4600AC7E9C /* EasyTipViewDemo */,
+				A844CF301EC6AD4600AC7E9C /* EasyTipViewDemoTests */,
+				A844CF3B1EC6AD4600AC7E9C /* EasyTipViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A844CF161EC6AD4600AC7E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844CF2B1EC6AD4600AC7E9C /* LaunchScreen.storyboard in Resources */,
+				A844CF281EC6AD4600AC7E9C /* Assets.xcassets in Resources */,
+				A844CF261EC6AD4600AC7E9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844CF2F1EC6AD4600AC7E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844CF3A1EC6AD4600AC7E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A844CF141EC6AD4600AC7E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844CF561EC6AEE600AC7E9C /* TestView.swift in Sources */,
+				A844CF231EC6AD4600AC7E9C /* ViewController.m in Sources */,
+				A844CF201EC6AD4600AC7E9C /* AppDelegate.m in Sources */,
+				A844CF521EC6ADFA00AC7E9C /* EasyTipView.swift in Sources */,
+				A844CF1D1EC6AD4600AC7E9C /* main.m in Sources */,
+				A844CF541EC6AE0300AC7E9C /* UIKitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844CF2D1EC6AD4600AC7E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844CF361EC6AD4600AC7E9C /* EasyTipViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A844CF381EC6AD4600AC7E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844CF411EC6AD4600AC7E9C /* EasyTipViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A844CF331EC6AD4600AC7E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A844CF171EC6AD4600AC7E9C /* EasyTipViewDemo */;
+			targetProxy = A844CF321EC6AD4600AC7E9C /* PBXContainerItemProxy */;
+		};
+		A844CF3E1EC6AD4600AC7E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A844CF171EC6AD4600AC7E9C /* EasyTipViewDemo */;
+			targetProxy = A844CF3D1EC6AD4600AC7E9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A844CF241EC6AD4600AC7E9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A844CF251EC6AD4600AC7E9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A844CF291EC6AD4600AC7E9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A844CF2A1EC6AD4600AC7E9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A844CF431EC6AD4600AC7E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A844CF441EC6AD4600AC7E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A844CF461EC6AD4600AC7E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EasyTipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.EasyTipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EasyTipViewDemo/EasyTipViewDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A844CF471EC6AD4600AC7E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EasyTipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.EasyTipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EasyTipViewDemo/EasyTipViewDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A844CF491EC6AD4600AC7E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyTipViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.EasyTipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTipViewDemo.app/EasyTipViewDemo";
+			};
+			name = Debug;
+		};
+		A844CF4A1EC6AD4600AC7E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyTipViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.EasyTipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTipViewDemo.app/EasyTipViewDemo";
+			};
+			name = Release;
+		};
+		A844CF4C1EC6AD4600AC7E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyTipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.EasyTipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyTipViewDemo;
+			};
+			name = Debug;
+		};
+		A844CF4D1EC6AD4600AC7E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EasyTipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.EasyTipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyTipViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A844CF131EC6AD4600AC7E9C /* Build configuration list for PBXProject "EasyTipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A844CF431EC6AD4600AC7E9C /* Debug */,
+				A844CF441EC6AD4600AC7E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A844CF451EC6AD4600AC7E9C /* Build configuration list for PBXNativeTarget "EasyTipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A844CF461EC6AD4600AC7E9C /* Debug */,
+				A844CF471EC6AD4600AC7E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A844CF481EC6AD4600AC7E9C /* Build configuration list for PBXNativeTarget "EasyTipViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A844CF491EC6AD4600AC7E9C /* Debug */,
+				A844CF4A1EC6AD4600AC7E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A844CF4B1EC6AD4600AC7E9C /* Build configuration list for PBXNativeTarget "EasyTipViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A844CF4C1EC6AD4600AC7E9C /* Debug */,
+				A844CF4D1EC6AD4600AC7E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A844CF101EC6AD4600AC7E9C /* Project object */;
+}
